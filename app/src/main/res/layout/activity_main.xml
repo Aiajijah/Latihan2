@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI SEDERHANA"
+        android:gravity="center"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/edt_nama"
+        android:hint="Tulis Nama Anda"/>
+
+    <Button
+        android:id="@+id/btn_klik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="klik saya"
+        android:textSize="12pt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_hasil"
+        android:text="Nama Anda"
+        android:textSize="12pt"
+        />
+
+
+</LinearLayout>
